@@ -44,7 +44,7 @@ padding-top: 150px;
     color:white;
     text-align: center;
     margin: auto;
-    padding-top: 150px;
+    padding-top: 80px;
 }
 .donateheading{
     font-family: 'Inter', sans-serif;
@@ -58,6 +58,7 @@ padding-top: 150px;
     font-family: 'Poppins', sans-serif;
     margin:-20px 0px 40px;
     color:#707070;
+    line-height:1.8em ;
 }
 
 .about-section{
@@ -69,6 +70,7 @@ text-align: center;
     width:830px;
     margin: auto;
     padding-bottom: 30px;
+   
     
 
 }
@@ -105,4 +107,34 @@ hr.new{
     text-transform: capitalize;
     border-radius: 5px; 
     font-family: 'Poppins', sans-serif; 
+}
+.donate-plan{
+    text-align: center;
+    padding-bottom: 70px;
+}
+.icon{
+
+    text-align: left;
+}
+.food{
+    width:225px;
+    text-align: left;
+    background-color: #4F9DA6;
+    padding:20px 15px;
+    margin:0px 10px;
+}
+.food-content{
+    color:#121212;
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+
+}
+.food-pera{
+    color: #121212;
+}
+.shelter{
+    background-color:#FF5959;
+}
+.frame{
+    background-color: #FFF4D6;
 }
