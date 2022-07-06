@@ -1,0 +1,39 @@
+body{
+  margin:0;
+}
+
+.top-banner{
+    background-image: url(images/background-image.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 670px;
+}
+.content{
+width:830px;
+color:white;
+text-align: center;
+margin: auto;
+padding-top: 150px;
+}
+h1{
+    font-size: 55px;
+    text-transform: capitalize;
+}
+.contentheading{
+    font-family: 'Inter', sans-serif;
+}
+.contentpera{
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+    margin:-20px 0px 40px;
+}
+.donate-button{
+    text-decoration: none;
+    background-color: #FF5959;
+    padding: 12px 16px;
+    color:white;
+    text-transform: capitalize;
+    border-radius: 5px;
+
+    
+}
