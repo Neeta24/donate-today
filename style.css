@@ -1,7 +1,6 @@
 body{
   margin:0;
 }
-
 .top-banner{
     background-image: url(images/background-image.jpg);
     background-repeat: no-repeat;
@@ -15,12 +14,10 @@ text-align: center;
 margin: auto;
 padding-top: 150px;
 }
-h1{
-    font-size: 55px;
-    text-transform: capitalize;
-}
 .contentheading{
     font-family: 'Inter', sans-serif;
+    font-size: 55px;
+    text-transform: capitalize;
 }
 .contentpera{
     font-size: 18px;
@@ -33,7 +30,79 @@ h1{
     padding: 12px 16px;
     color:white;
     text-transform: capitalize;
-    border-radius: 5px;
+    border-radius: 5px; 
+    font-family: 'Poppins', sans-serif; 
+   
+}
+.donate-content{
+    color: black;
+    text-align: center;
+    padding: 150px;
+}
+.donate-today{
+    width:830px;
+    color:white;
+    text-align: center;
+    margin: auto;
+    padding-top: 150px;
+}
+.donateheading{
+    font-family: 'Inter', sans-serif;
+    font-size: 45px;
+    text-transform: capitalize;
+    font-weight: bolder;
+    color: #121212;
+}
+.donatepera{
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+    margin:-20px 0px 40px;
+    color:#707070;
+}
 
+.about-section{
+text-align: center;
+}
+
+.donate-amount{
+    display: flex;
+    width:830px;
+    margin: auto;
+    padding-bottom: 30px;
     
+
+}
+.div-style{
+    padding:5px 12px;
+    color:#FAFAFA;
+    border-style: solid;
+    margin: 2%
+}
+h3{
+    color:#707070;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-size: 30px;
+
+}
+#other-amount{
+    color: #B3B3B3;
+    text-transform: capitalize;
+    text-align: center;
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+}
+hr.new{
+    width:830px;
+    color:#DADADA;
+     margin-bottom: 50px;
+}
+.donate-button-new{
+    text-decoration: none;
+    background-color: #FF5959;
+    padding: 12px 16px;
+    color:white;
+    text-transform: capitalize;
+    border-radius: 5px; 
+    font-family: 'Poppins', sans-serif; 
 }
