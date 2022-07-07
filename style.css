@@ -44,7 +44,7 @@ padding-top: 150px;
     color:white;
     text-align: center;
     margin: auto;
-    padding-top: 80px;
+    padding-top: 50px;
 }
 .donateheading{
     font-family: 'Inter', sans-serif;
@@ -56,13 +56,13 @@ padding-top: 150px;
 .donatepera{
     font-size: 18px;
     font-family: 'Poppins', sans-serif;
-    margin:-20px 0px 40px;
     color:#707070;
     line-height:1.8em ;
 }
 
 .about-section{
 text-align: center;
+padding:10px;
 }
 
 .donate-amount{
@@ -73,7 +73,7 @@ text-align: center;
    
 }
 .div-style{
-    padding:5px 12px;
+    padding:5px 16px;
     color:#FAFAFA;
     border-style: solid;
     margin: 2%
@@ -81,6 +81,7 @@ text-align: center;
 .border{
     border: 3px solid #FF5959 ;
     padding:5px 12px;
+    background: rgb(252,143,143,0.3);
     color:#FF5959;
     margin: 2%
     
@@ -117,7 +118,7 @@ hr.new{
 }
 .donate-plan{
     text-align: center;
-    padding-bottom: 70px;
+   
 }
 .icon{
 
@@ -126,7 +127,7 @@ hr.new{
 .food{
     width:225px;
     text-align: left;
-    background-color: #4F9DA6;
+    background: rgb(79,157,166,0.3);
     padding:20px 15px 30px 15px;
     margin:0px 10px;
 }
@@ -137,13 +138,14 @@ hr.new{
 
 }
 .food-pera{
-    color: #121212;
+    color: #707070;
+    font-family: 'Poppins', sans-serif;
 }
 .shelter{
-    background-color:#FF5959;
+    background: rgb(255,89,89,0.3);
 }
 .frame{
-    background-color: #FFF4D6;
+    background: rgb(255,244,214,0.3);
 }
 
 .lives{
@@ -165,41 +167,62 @@ hr.new{
     font-family: 'Poppins', sans-serif;
     font-size: 18px;
     padding-bottom: 20px;
+    color: #707070;
 }
 
 .half-width{
     width:50%;
+    padding-left: 10px;
+    height:375px
 
 }
 .half-width img{
     width: 95%;
     margin-left: 10px;
+    border-radius: 5px;
+    line-height: 1.6em;
 
+}
+.updates{
+    text-align: center;
+}
+.updateheading{
+    font-family: 'Inter', sans-serif;
+    font-size: 45px;
+    text-transform: capitalize;
+    font-weight: bolder;
+    color: #121212;
+}
+.updatepera{
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+    color:#707070;
+    padding-top:-20px;
 }
 
 .subscription{
     width:803px;
     height:200px;
     background-color: #FFF4D6;
-    margin: auto;
+    margin: 50px 0px 64px 543px;
     border-radius: 5px; 
     
 }
 
 .center-box{
     display:flex;
-    align-items:center ;
     justify-content: center;
     height:20vh;
-    margin-top: -80px;
+    margin:auto;
+    
     
     
 }
 .form-box{
-
+    align-items: center;
     border-radius: 5px;
     background-color: #D9D9D9;
-    margin-top: 50px;
+   margin-top:18%;
   
 }
 .form-box input{
